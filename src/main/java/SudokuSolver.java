@@ -30,7 +30,7 @@ public class SudokuSolver {
         if(sudokuSize!=lines-2){
             System.out.println("Not a 4x4, 9x9, 16x16, 25x25, or 36x36");
             if(fout!=null){
-            writeErrorFile();
+            writeErrorFile("Not a 4x4, 9x9, 16x16, 25x25, or 36x36");
             }
             System.exit(1);
         }
@@ -68,8 +68,9 @@ public class SudokuSolver {
         return sudokuBoard;
     }
 
-    public boolean checkValidity(String[][] board, int length){
+    public void checkValidity(String[][] board, int length) throws IOException {
         try {
+            String invalidMessage= null;
             String sudokuBoard[][]= new String[sudokuSize][sudokuSize];
             Boolean isInvalid= false;
             for (int i=1; i<sudokuSize; i++){
@@ -80,6 +81,7 @@ public class SudokuSolver {
                             break;
                         } else {
                             isInvalid = true;
+                            invalidMessage= "Invalid symbol";
                         }
                     }
                 }
@@ -92,19 +94,24 @@ public class SudokuSolver {
             }
             if (sudokuBoard == null ) {
                 System.out.println("Sudoku is null");
-                return false;
+                invalidMessage="Sudoku is null";
+                isInvalid = true;
             }
             for (int i=1; i<sudokuSize; i++)
             {
                 if( sudokuBoard[i].length != sudokuSize){
                     System.out.println("Invalid Format");
-                    return false;
+                    invalidMessage="Invalid Format";
+                    isInvalid = true;
+                    break;
                 }}
             for (int i=1; i<sudokuSize; i++)
             {
                 if( sudokuBoard.length != sudokuSize){
                     System.out.println("Not proper size");
-                    return false;
+                    invalidMessage="Not proper size";
+                    isInvalid = true;
+                    break;
                 }
             }
             //Check Each Column
@@ -126,8 +133,10 @@ public class SudokuSolver {
                                 if (Integer.parseInt(colBoard[m]) == 0 && Integer.parseInt(colBoard[m]) == 0) {
                                     //          System.out.println("value of m and n are zero");
                                 } else {
-                                    System.out.println("Invalid Format");
-                                    return false;
+                                    System.out.println("Invalid column count");
+                                    invalidMessage="Invalid column count";
+                                    isInvalid = true;
+                                    break;
                                 }
                             }
                         }
@@ -155,8 +164,10 @@ public class SudokuSolver {
                                 if (Integer.parseInt(rowBoard[m]) == 0 && Integer.parseInt(rowBoard[m]) == 0) {
                                     //              System.out.println("value of m and n are zero");
                                 } else {
-                                    System.out.println("Invalid Format");
-                                    return false;
+                                    System.out.println("Invalid row count");
+                                    invalidMessage="Invalid row count";
+                                    isInvalid = true;
+                                    break;
                                 }
                             }
                         }
@@ -184,8 +195,10 @@ public class SudokuSolver {
                                     if (Integer.parseInt(subGrid[m]) == 0 && Integer.parseInt(subGrid[m]) == 0) {
                                         //            System.out.println("value of m and n are zero");
                                     } else {
-                                        System.out.println("Invalid Format");
-                                        return false;
+                                        System.out.println("Number repeated in subgrid");
+                                        invalidMessage="Number repeated in subgrid";
+                                        isInvalid = true;
+                                        break;
                                     }
                                 }
                             }
@@ -196,9 +209,9 @@ public class SudokuSolver {
                 }
             }
             if(isInvalid){
-                System.out.println("Invalid Symbol");
+                System.out.println(invalidMessage);
                 if(fout!=null){
-                    writeErrorFile();
+                    writeErrorFile(invalidMessage);
                 }
                 System.exit(1);
             }
@@ -206,10 +219,10 @@ public class SudokuSolver {
             String error= e1.toString();
             if(error.equals("java.lang.NullPointerException")){
                 System.out.println("Invalid: not formatted correctly");
+                writeErrorFile("Invalid: not formatted correctly");
                 System.exit(1);
             }
         }
-        return true;
     }
     //to get a particular row of sudoku
     public String[] getSubGrid(int row, int column, String number, int size, String board[][]){
@@ -289,7 +302,7 @@ public class SudokuSolver {
         bw.write(String.valueOf(time3)+"  ns");
         bw.close();
     }
-    public  void writeErrorFile() throws IOException {
+    public  void writeErrorFile(String invalidMessage) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(input));
         BufferedWriter writer = new BufferedWriter(new FileWriter(fout));
 
@@ -302,7 +315,7 @@ public class SudokuSolver {
 
         writer.newLine();
 
-        writer.write("Invalid format");
+        writer.write(invalidMessage);
 
         writer.close();
     }

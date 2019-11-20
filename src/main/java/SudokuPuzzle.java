@@ -15,12 +15,7 @@ public class SudokuPuzzle {
             int backTrackingCount = 0;
             int onePossibleCount = 0;
             int humanKindCount = 0;
-            if (sudokuSolver.checkValidity(sudokuBoard, sudokuBoard[0].length)) {
-                System.out.println("Valid Sudoku");
-            }
-            else{
-                System.exit(1);
-            }
+            sudokuSolver.checkValidity(sudokuBoard, sudokuBoard[0].length);
             long startTime = System.nanoTime();
 
             OnePossibleSolution onePossibleSolution = new OnePossibleSolution(sudokuBoard);
