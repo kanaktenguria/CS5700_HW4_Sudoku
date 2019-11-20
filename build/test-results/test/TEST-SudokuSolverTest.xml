@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SudokuSolverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-21T03:27:35" hostname="Phoenix" time="0.071">
+  <properties/>
+  <testcase name="testConstructor" classname="SudokuSolverTest" time="0.071"/>
+  <system-out><![CDATA[ 2 4 3 1
+ 1 3 2 4
+ 3 1 4 2
+ 4 2 1 3
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

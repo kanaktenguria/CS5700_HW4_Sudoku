@@ -71,6 +71,20 @@ public class SudokuSolver {
     public boolean checkValidity(String[][] board, int length){
         try {
             String sudokuBoard[][]= new String[sudokuSize][sudokuSize];
+            Boolean isInvalid= false;
+            for (int i=1; i<sudokuSize; i++){
+                for(int j=0;j<sudokuSize;j++){
+                    for(int k=0; k<sudokuElements.length;k++) {
+                        if (board[i][j] == sudokuElements[k] || board[i][j] == "-") {
+                            isInvalid = false;
+                            break;
+                        } else {
+                            isInvalid = true;
+                        }
+                    }
+                }
+            }
+
             for (int i=1; i<sudokuSize+1; i++){
                 for(int j=0;j<sudokuSize;j++){
                     sudokuBoard[i-1][j]=board[i][j];
@@ -180,6 +194,13 @@ public class SudokuSolver {
                         m++;
                     }
                 }
+            }
+            if(isInvalid){
+                System.out.println("Invalid Symbol");
+                if(fout!=null){
+                    writeErrorFile();
+                }
+                System.exit(1);
             }
         } catch (Exception e1) {
             String error= e1.toString();
