@@ -7,8 +7,8 @@ import static org.junit.Assert.*;
 public class HumanKindTest {
     @Test
     public void humanKindTestSolve() throws IOException {
-        SudokuSolver sudokuSolver = new SudokuSolver("HKTestInput.txt",null);
-        String board[][]=sudokuSolver.getSudokuBoard();
+        ValidityChecker validityChecker = new ValidityChecker("HKTestInput.txt",null);
+        String board[][]= validityChecker.getSudokuBoard();
         HumanKind humanKind= new HumanKind(board);
         assertEquals(humanKind.getSize(),board[0].length);
         humanKind.solveSudoku();

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class SudokuSolver {
+public class ValidityChecker {
     private int sudokuSize;
     private String[][] sudokuArray;
     private String[][] sudokuBoard;
@@ -8,7 +8,7 @@ public class SudokuSolver {
     private File fout;
     private File input;
 
-    public SudokuSolver(String inputFile, String outputFile) throws IOException {
+    public ValidityChecker(String inputFile, String outputFile) throws IOException {
         input = new File(inputFile);
         if(outputFile!=null){
             fout = new File(outputFile);
@@ -73,16 +73,30 @@ public class SudokuSolver {
             String invalidMessage= null;
             String sudokuBoard[][]= new String[sudokuSize][sudokuSize];
             Boolean isInvalid= false;
-            for (int i=1; i<sudokuSize; i++){
-                for(int j=0;j<sudokuSize;j++){
+            int ip,jp;
+            for (ip=1; ip<sudokuSize+1; ip++){
+                for(jp=0;jp<sudokuSize;jp++){
                     for(int k=0; k<sudokuElements.length;k++) {
-                        if (board[i][j] == sudokuElements[k] || board[i][j] == "-") {
+                        if (board[ip][jp].equals(sudokuElements[k]) || board[ip][jp] == "0") {
+                            System.out.println("\n"+"Inside valid");
+                            System.out.println("Row="+ip+"coloumn="+jp);
+                            System.out.println("board="+board[ip][jp]);
+                            System.out.println("element="+sudokuElements[k]);
                             isInvalid = false;
                             break;
                         } else {
+                            System.out.println("\n"+"Inside invalid");
+                            System.out.println("Row="+ip+"coloumn="+jp);
+                            System.out.println("board="+board[ip][jp]);
+                            System.out.println("element="+sudokuElements[k]);
                             isInvalid = true;
                             invalidMessage= "Invalid symbol";
                         }
+                    }
+                    if(isInvalid) {
+                        jp = sudokuSize + 2;
+                        ip = sudokuSize + 2;
+                        break;
                     }
                 }
             }

@@ -7,8 +7,8 @@ import static org.junit.Assert.*;
 public class AlgorithmTest {
     @Test
     public void testConstructor() throws IOException {
-        SudokuSolver sudokuSolver = new SudokuSolver("testTemplate.txt",null);
-        String board[][]=sudokuSolver.getSudokuBoard();
+        ValidityChecker validityChecker = new ValidityChecker("testTemplate.txt",null);
+        String board[][]= validityChecker.getSudokuBoard();
         BackTracking backTracking = new BackTracking(board);
         backTracking.getGameBoard();
         String board1[][]=backTracking.getGameBoard();

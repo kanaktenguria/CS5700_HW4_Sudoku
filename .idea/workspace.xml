@@ -6,13 +6,36 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kanak.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kanak.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aditi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aditi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/SudokuSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SudokuSolverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/SudokuSolverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SudokuSolverTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SudokuSolverTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invalid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/invalid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invalidTestOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/invalidTestOutput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SudokuPuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SudokuPuzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidityChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AlgorithmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BackTrackingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BackTrackingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HumanKindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HumanKindTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OnePossibleSolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OnePossibleSolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SudokuSolverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ValidityCheckerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +47,7 @@
     <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="446" />
+    <option name="myElementSize" value="357" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -44,8 +67,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnePossibleSolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SudokuSolverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;OnePossibleSolutionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SudokuSolverTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -183,18 +206,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.SudokuPuzzle" />
-      <item itemvalue="Gradle.OnePossibleSolutionTest" />
       <item itemvalue="Gradle.Tests in 'untitled.test'" />
       <item itemvalue="Gradle.SudokuSolverTest.testWriteErrorFile" />
       <item itemvalue="Gradle.SudokuSolverTest.testConstructor" />
+      <item itemvalue="Gradle.SudokuSolverTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SudokuSolverTest" />
         <item itemvalue="Gradle.SudokuSolverTest.testConstructor" />
         <item itemvalue="Gradle.SudokuSolverTest.testWriteErrorFile" />
         <item itemvalue="Gradle.Tests in 'untitled.test'" />
         <item itemvalue="Application.SudokuPuzzle" />
-        <item itemvalue="Gradle.OnePossibleSolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,13 +248,13 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/untitled$SudokuSolverTest_testConstructor.ic" NAME="SudokuSolverTest.testConstructor Coverage Results" MODIFIED="1574306852452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/untitled$SudokuSolverTest_testConstructor.ic" NAME="SudokuSolverTest.testConstructor Coverage Results" MODIFIED="1574293548449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/untitled$OnePossibleSolutionTest.ic" NAME="OnePossibleSolutionTest Coverage Results" MODIFIED="1574245640393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/untitled$SudokuSolverTest.ic" NAME="SudokuSolverTest Coverage Results" MODIFIED="1574244168070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/untitled$SudokuSolverTest.ic" NAME="SudokuSolverTest Coverage Results" MODIFIED="1574293729490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/untitled$BackTrackingTest.ic" NAME="BackTrackingTest Coverage Results" MODIFIED="1574244922429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/untitled$SudokuSolverTest_testWriteErrorFile.ic" NAME="SudokuSolverTest.testWriteErrorFile Coverage Results" MODIFIED="1574306806430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/untitled$SudokuSolverTest_testWriteErrorFile.ic" NAME="SudokuSolverTest.testWriteErrorFile Coverage Results" MODIFIED="1574293537999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/untitled$HumanKindTest.ic" NAME="HumanKindTest Coverage Results" MODIFIED="1574245514342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/untitled$Tests_in__untitled_test_.ic" NAME="Tests in 'untitled.test' Coverage Results" MODIFIED="1574306783205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/untitled$Tests_in__untitled_test_.ic" NAME="Tests in 'untitled.test' Coverage Results" MODIFIED="1574293519787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/untitled$AlgorithmTest.ic" NAME="AlgorithmTest Coverage Results" MODIFIED="1574244537072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

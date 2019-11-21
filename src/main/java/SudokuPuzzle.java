@@ -9,13 +9,13 @@ public class SudokuPuzzle {
             if(args.length==2){
                 outputFile= args[1];
             }
-            SudokuSolver sudokuSolver= new SudokuSolver(args[0],outputFile);
-            String sudokuArray[][] = sudokuSolver.getSudokuBoard();
-            String sudokuBoard[][] = sudokuSolver.getSudokuBoard();
+            ValidityChecker validityChecker = new ValidityChecker(args[0],outputFile);
+            String sudokuArray[][] = validityChecker.getSudokuBoard();
+            String sudokuBoard[][] = validityChecker.getSudokuBoard();
             int backTrackingCount = 0;
             int onePossibleCount = 0;
             int humanKindCount = 0;
-            sudokuSolver.checkValidity(sudokuBoard, sudokuBoard[0].length);
+            validityChecker.checkValidity(sudokuBoard, sudokuBoard[0].length);
             long startTime = System.nanoTime();
 
             OnePossibleSolution onePossibleSolution = new OnePossibleSolution(sudokuBoard);
@@ -48,7 +48,7 @@ public class SudokuPuzzle {
             if (args.length == 2) {
                 File fout = new File(args[1]);
 //                new FileIO(fout, sudokuBoard, onePossibleCount, humanKindCount, backTrackingCount, totalTimeTaken, totalTimeTaken1, totalTimeTaken2, totalTimeTaken3);
-                sudokuSolver.writeFile(fout, sudokuBoard, onePossibleCount, humanKindCount, backTrackingCount, totalTimeTaken, totalTimeTaken1, totalTimeTaken2, totalTimeTaken3);
+                validityChecker.writeFile(fout, sudokuBoard, onePossibleCount, humanKindCount, backTrackingCount, totalTimeTaken, totalTimeTaken1, totalTimeTaken2, totalTimeTaken3);
             } else {
                 System.out.println(String.valueOf(sudokuArray[0].length));
                 System.out.println();

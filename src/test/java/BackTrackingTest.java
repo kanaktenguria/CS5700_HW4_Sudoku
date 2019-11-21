@@ -7,8 +7,8 @@ import static org.junit.Assert.*;
 public class BackTrackingTest {
     @Test
     public void  testBackTracking() throws IOException {
-        SudokuSolver sudokuSolver = new SudokuSolver("backtrackTestInput.txt",null);
-        String board[][]=sudokuSolver.getSudokuBoard();
+        ValidityChecker validityChecker = new ValidityChecker("backtrackTestInput.txt",null);
+        String board[][]= validityChecker.getSudokuBoard();
         BackTracking backTracking= new BackTracking(board);
         assertEquals(backTracking.getSize(),board[0].length);
         backTracking.solveSudoku();
