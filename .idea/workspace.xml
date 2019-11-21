@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0468d7c1-5450-48c4-86bf-3721a2dfe387" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kanak.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Kanak.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SudokuPuzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/SudokuPuzzle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SudokuSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/AlgorithmTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/AlgorithmTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/BackTrackingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/BackTrackingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/HumanKindTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/HumanKindTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/OnePossibleSolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/OnePossibleSolutionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SudokuSolverTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aditi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aditi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ValidityChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidityChecker.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +16,7 @@
     <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="188" />
+    <option name="myElementSize" value="158" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -68,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Sudoku-master/Sudoku-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -103,26 +84,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'untitled.test'">
-    <configuration name="SudokuSolverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SudokuSolverTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.SudokuPuzzle">
+    <configuration name="SudokuPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SudokuPuzzle" />
+      <module name="untitled.main" />
+      <option name="PROGRAM_PARAMETERS" value="Kanak.txt aditi.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tests in 'untitled.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -205,19 +174,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.SudokuPuzzle" />
       <item itemvalue="Gradle.Tests in 'untitled.test'" />
-      <item itemvalue="Gradle.SudokuSolverTest" />
       <item itemvalue="Gradle.ValidityCheckerTest.testConstructor" />
       <item itemvalue="Gradle.ValidityCheckerTest.testWriteErrorFile" />
       <item itemvalue="Gradle.ValidityCheckerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SudokuPuzzle" />
         <item itemvalue="Gradle.Tests in 'untitled.test'" />
         <item itemvalue="Gradle.ValidityCheckerTest.testWriteErrorFile" />
         <item itemvalue="Gradle.ValidityCheckerTest.testConstructor" />
         <item itemvalue="Gradle.ValidityCheckerTest" />
-        <item itemvalue="Gradle.SudokuSolverTest" />
       </list>
     </recent_temporary>
   </component>

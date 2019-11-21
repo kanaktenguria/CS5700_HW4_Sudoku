@@ -78,17 +78,9 @@ public class ValidityChecker {
                 for(jp=0;jp<sudokuSize;jp++){
                     for(int k=0; k<sudokuElements.length;k++) {
                         if (board[ip][jp].equals(sudokuElements[k]) || board[ip][jp] == "0") {
-                            System.out.println("\n"+"Inside valid");
-                            System.out.println("Row="+ip+"coloumn="+jp);
-                            System.out.println("board="+board[ip][jp]);
-                            System.out.println("element="+sudokuElements[k]);
                             isInvalid = false;
                             break;
                         } else {
-                            System.out.println("\n"+"Inside invalid");
-                            System.out.println("Row="+ip+"coloumn="+jp);
-                            System.out.println("board="+board[ip][jp]);
-                            System.out.println("element="+sudokuElements[k]);
                             isInvalid = true;
                             invalidMessage= "Invalid symbol";
                         }
